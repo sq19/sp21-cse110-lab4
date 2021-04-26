@@ -1,5 +1,5 @@
 1. The bug was that instead of adding the numbers together, the program was concatenating the inputs.
-2. I fixed it by converting the strings to integers, so that the type of result was a number instead of a string. That way, the + operation would function as addition rather than string concatenation.
+2. I fixed it by converting the strings to numbers, so that the type of result was a number instead of a string. That way, the + operation would function as addition rather than string concatenation.
 3. citylots.json
 4. part2.js
 5. 11.7 MB
