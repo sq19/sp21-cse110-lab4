@@ -1,9 +1,9 @@
 ## Part 1a
 ### var declaration
-1. 20
-2. 20
+1. values added: 20
+2. values printed: 20
 ### let declaration
-1. 20
+1. values added: 20
 2. Error: result is not defined, as let defines result only in the scope of the if statement
 ### const declaration
 1. Error: cannot reassign a constant variable
@@ -14,7 +14,7 @@
 2. 150 will be printed because discountedPrice is a var, so its scope is the entire function after it is declared. The final discounted price was 50% of 300, which is 150
 3. 150 will be printed because finalPrice is a var, so its scope is the entire function after it is declared. The final price was 150
 4. This function will return an array the same length as prices, where each entry of the array is the discounted version of the original prices. In this case, the discount was 50%, so the entries would be [50, 100, 150]
-5. Error: i is not defined since it is declard using let, its scope is only inside the for loop block. Outside the for loop, i is not defined
+5. Error: i is not defined since it is declared using let, its scope is only inside the for loop block. Outside the for loop, i is not defined
 6. Error: discountedPrice is not defined since it is declard using let, its scope is only inside the for loop block. Outside the for loop, discountedPrice is not defined
 7. 150 will be printed because the scope of finalPrice is the entire function block, so finalPrice is defined at the console.log statement
 8. This function will return an array the same length as prices, where each entry of the array is the discounted version of the original prices. In this case, the discount was 50%, so the entries would be [50, 100, 150]
@@ -28,13 +28,14 @@
     4.  student['Favorite Teacher'].name
     5.  student.courseLoad[0]
 13. Arithmetic
-    1.  32, since the + operation is used to concatenate strings as well, the 2 is mapped to a string and concatenated with 3 to give 32
+    1.  "32", since the + operation is used to concatenate strings as well, the 2 is mapped to a string and concatenated with 3 to give 32
     2.  1, since the - operation is only used on numbers, the '3' is mapped to an integer and normal arithmetic occus
     3.  3, since null maps to 0
-    4.  4, since true maps to 1
-    5.  0, since both false and null map to 0
-    6.  3undefined, since the + operation acts as string concatenation
-    7.  NaN, since the operation - is not defined on strings
+    4.  "3null", since null becomes a string and the + operation is then used to concatenate strings
+    5.  4, since true maps to 1
+    6.  0, since both false and null map to 0
+    7.  "3undefined", since the + operation acts as string concatenation
+    8.  NaN, since the operation - is not defined on strings
 14. Comparison
     1.  true, since '2' is converted to the integer 2 and it is larger than 1
     2.  false, since the first character of '2' is larger than the first character of '12', so '2' > '12'
